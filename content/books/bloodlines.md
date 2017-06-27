@@ -6,7 +6,7 @@ publication_date = "2017-09-12"
 publisher = "Ecco"
 isbn = "978-0062448484"
 tags = []
-featured_image = ""
+images: "/images/bloodlines-cover.jpg"
 description = "Drugs, money, cartels: this is what FBI rookie Scott Lawson expected when he was sent to the border town of Laredo, but instead he’s deskbound writing intelligence reports about the drug war."
 +++
 
