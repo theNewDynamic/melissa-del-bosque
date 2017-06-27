@@ -1,13 +1,12 @@
 +++
 title = "Bloodlines"
-subtitle = "The True Story of a Drug Cartel, the FBI and the Battle for a Horse-Racing Dynasty"
 date = "2107-06-26"
 publication_date = "2017-09-12"
 publisher = "Ecco"
 isbn = "978-0062448484"
 tags = []
 featured_image = ""
-description = "Drugs, money, cartels: this is what FBI rookie Scott Lawson expected when he was sent to the border town of Laredo, but instead he’s deskbound writing intelligence reports about the drug war."
+description = "The True Story of a Drug Cartel, the FBI and the Battle for a Horse-Racing Dynasty"
 +++
 
 Drugs, money, cartels: this is what FBI rookie Scott Lawson expected when he was sent to the border town of Laredo, but instead he’s deskbound writing intelligence reports about the drug war. Then, one day, Lawson is asked to check out a tip from a source: a horse was sold at an Oklahoma auction for a record-topping price, and the buyer was Miguel Treviño, one of the leaders of the Zetas, Mexico's most brutal drug cartel. The source suggested that Treviño was laundering money through American quarter horse racing. If this was true, it offered a rookie like Lawson the perfect opportunity to infiltrate the cartel. Lawson teams up with a more experienced agent, Alma Perez, and, taking on impossible odds, sets out to take down one of the world’s most fearsome drug lords. 
