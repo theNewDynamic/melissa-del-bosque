@@ -7,13 +7,24 @@ publisher: "Ecco"
 editions_isbn:
   hardcover: 9780062448484
   paperback: ''
-  ebook: 9780062448507  
-images: 
+  ebook: 9780062448507
+buy_links:
+  Amazon: 'http://ads.harpercollins.com/athrweb?isbn=9780062448484&retailer=amazon&locale=US'
+  Apple: 'http://ads.harpercollins.com/athrweb?isbn=9780062448507&retailer=apple&locale=US'
+  Barnes-&-Noble: 'http://ads.harpercollins.com/athrweb?isbn=9780062448484&retailer=barnesandnoble&locale=US'
+  Books-a-Million: 'http://ads.harpercollins.com/athrweb?isbn=9780062448484&retailer=booksamillion&locale=US'
+  Google-Play: 'http://ads.harpercollins.com/athrweb?isbn=9780062448507&retailer=googleplay&locale=US'
+  Harper-Collins: 'http://ads.harpercollins.com/athrweb?isbn=9780062448484&retailer=harpercollins&locale=US'
+  Indiebound: 'http://ads.harpercollins.com/athrweb?isbn=9780062448484&retailer=indiebound&locale=US'
+images:
   - /images/bloodlines-cover.jpg
+hero:
+   image: /images/judas-horse-4.jpg
+
 description: "Drugs, money, cartels: this is what FBI rookie Scott Lawson expected when he was sent to the border town of Laredo, but instead he’s deskbound writing intelligence reports about the drug war."
 ---
 
-Drugs, money, cartels: this is what FBI rookie Scott Lawson expected when he was sent to the border town of Laredo, but instead he’s deskbound writing intelligence reports about the drug war. Then, one day, Lawson is asked to check out a tip from a source: a horse was sold at an Oklahoma auction for a record-topping price, and the buyer was Miguel Treviño, one of the leaders of the Zetas, Mexico's most brutal drug cartel. The source suggested that Treviño was laundering money through American quarter horse racing. If this was true, it offered a rookie like Lawson the perfect opportunity to infiltrate the cartel. Lawson teams up with a more experienced agent, Alma Perez, and, taking on impossible odds, sets out to take down one of the world’s most fearsome drug lords. 
+Drugs, money, cartels: this is what FBI rookie Scott Lawson expected when he was sent to the border town of Laredo, but instead he’s deskbound writing intelligence reports about the drug war. Then, one day, Lawson is asked to check out a tip from a source: a horse was sold at an Oklahoma auction for a record-topping price, and the buyer was Miguel Treviño, one of the leaders of the Zetas, Mexico's most brutal drug cartel. The source suggested that Treviño was laundering money through American quarter horse racing. If this was true, it offered a rookie like Lawson the perfect opportunity to infiltrate the cartel. Lawson teams up with a more experienced agent, Alma Perez, and, taking on impossible odds, sets out to take down one of the world’s most fearsome drug lords.
 
-In Bloodlines, Emmy and National Magazine Award-winning journalist Melissa del Bosque follows Lawson and Perez's harrowing attempt to dismantle a cartel leader’s American racing dynasty built on extortion and blood money. 
+In Bloodlines, Emmy and National Magazine Award-winning journalist Melissa del Bosque follows Lawson and Perez's harrowing attempt to dismantle a cartel leader’s American racing dynasty built on extortion and blood money.
 With extensive access to investigative evidence and in-depth interviews with key players, del Bosque turns more than three years of research and her decades of reporting on Mexico and the border into a gripping narrative about greed and corruption. Bloodlines offers us an unprecedented look at the inner workings of the Zetas and US federal agencies, and opens a new vista onto the changing nature of the drug war and its global expansion.
