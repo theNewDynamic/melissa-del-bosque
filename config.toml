@@ -4,37 +4,39 @@ baseurl = ""
 theme = "thenewdynamic-hugo-core-theme"
 metaDataFormat = "yaml"
 log = true
+#SectionPagesMenu = "main"
 [params]
-  body_classes = "bg-white serif"
-  #background_color_class = "bg-near-black"
+  body_classes = "bg-white slab"
+  background_color_class = "bg-black"
 
 [taxonomies]
 tag = "tags"
 category = "categories"
 
 
+
 [[menu.main]]
-    name = "about"
+    name = "About Melissa"
     weight = 1
     identifier = "about"
     url = "/about/"
 [[menu.main]]
-    name = "books"
+    name = "About the Book"
     identifier = "books"
     weight = 2
-    url = "/book/"
-[[menu.main]]
-    name = "contact"
-    identifier = "contact"
-    weight = 3
-    url = "/contact/"
-[[menu.main]]
-    name = "journal"
-    identifier = "journal"
-    weight = 4
-    url = "/journal/"
-[[menu.main]]
-    name = "events"
-    identifier = "events"
-    weight = 5
-    url = "/event/"
+    url = "/book/bloodlines/"
+# [[menu.main]]
+#     name = "contact"
+#     identifier = "contact"
+#     weight = 3
+#     url = "/contact/"
+# [[menu.main]]
+#     name = "journal"
+#     identifier = "journal"
+#     weight = 4
+#     url = "/journal/"
+# [[menu.main]]
+#     name = "events"
+#     identifier = "events"
+#     weight = 5
+#     url = "/event/"
