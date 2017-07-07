@@ -19,7 +19,7 @@ buy_links:
 images:
   - /images/bloodlines-cover.jpg
 hero:
-   image: /images/judas-horse-4.jpg
+   image: /images/henry-chuy-227821-bw.jpg
 
 description: "Drugs, money, cartels: this is what FBI rookie Scott Lawson expected when he was sent to the border town of Laredo, but instead he’s deskbound writing intelligence reports about the drug war."
 ---
