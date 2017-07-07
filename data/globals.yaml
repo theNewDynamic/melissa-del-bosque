@@ -1,12 +1,12 @@
 colors:
-  primary-color:        "#8C1613"
+  primary-color:        "#fff"
   primary-color-dark:   "#111"
   primary-color-light:  "#ABA194"
   accent-color:         "#F3F6F8"
   accent-color-light:   "#F2F4F3"
   accent-color-dark:    "wheat"
   text-color-primary:   "black"
-  text-on-primary-color:   "#fff"
+  text-on-primary-color:   "#111"
   text-color-secondary: "#ccc"
   text-color-disabled:  "#F7f7f7"
   divider-color:        "#f6f6f6"
@@ -14,6 +14,7 @@ colors:
 
 fonts:
   sans-serif: "open sans"
+  slab: "'Roboto Slab', serif;"
 
 # classes
 copy_classes: "nested-copy-line-height nested-links nested-img mid-gray measure-wide-l"
