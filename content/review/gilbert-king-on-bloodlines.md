@@ -1,6 +1,6 @@
 ---
 title: "Gilbert King on Bloodlines"
-attribution: Gilbert King, Pulitzer Prize-winning author of Devil in the Grove
+attribution: "Gilbert King, Pulitzer Prize-winning author of *Devil in the Grove*"
 book: book/bloodlines.md
 ---
 

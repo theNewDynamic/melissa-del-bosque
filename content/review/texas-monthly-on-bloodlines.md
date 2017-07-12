@@ -1,6 +1,6 @@
 ---
 title: "Mimi Swartz on Bloodlines"
-attribution: Mimi Swartz, Executive Editor, Texas Monthly
+attribution: "Mimi Swartz, Executive Editor, *Texas Monthly*"
 book: book/bloodlines.md
 ---
 

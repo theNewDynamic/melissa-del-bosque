@@ -1,6 +1,6 @@
 ---
 title: "Guadalupe Correa-Cabrera on Bloodlines"
-attribution: Guadalupe Correa-Cabrera, author of Los Zetas Inc.
+attribution: Guadalupe Correa-Cabrera, author of *Los Zetas Inc*.
 book: book/bloodlines.md
 ---
 
