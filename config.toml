@@ -14,7 +14,7 @@ twitter = "MelissaLaLinea"
 #instagram = ""
 
 [params]
-  body_classes = "bg-white site-font white"
+  body_classes = "bg-white bl br b--light-gray center site-font white mw9"
   color_classes = "black bg-white"
   description = "hellow ro"
 
@@ -24,13 +24,13 @@ category = "categories"
 
 
 
+# [[menu.main]]
+#     name = "About Melissa"
+#     weight = 10
+#     identifier = "about"
+#     url = "/about/"
 [[menu.main]]
-    name = "About Melissa"
-    weight = 10
-    identifier = "about"
-    url = "/about/"
-[[menu.main]]
-    name = "About the Book"
+    name = "About Bloodlines"
     identifier = "books"
     weight = 2
     url = "/book/bloodlines/"
