@@ -18,8 +18,8 @@ buy_links:
   Indiebound: 'http://ads.harpercollins.com/athrweb?isbn=9780062448484&retailer=indiebound&locale=US'
 images:
   - /images/bloodlines-cover.jpg
-hero:
-   image: /images/henry-chuy-227821-bw.jpg
+#hero:
+#   image: /images/henry-chuy-227821-bw.jpg
 
 description: "Drugs, money, cartels: this is what FBI rookie Scott Lawson expected when he was sent to the border town of Laredo, but instead he’s deskbound writing intelligence reports about the drug war."
 ---
