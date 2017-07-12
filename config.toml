@@ -2,6 +2,7 @@ languageCode = "en-us"
 title = "Melissa Del Bosque"
 baseurl = "https://melissa-del-busque.netlify.com"
 theme = "thenewdynamic-hugo-core-theme"
+
 metaDataFormat = "yaml"
 log = true
 #SectionPagesMenu = "main"
@@ -13,8 +14,9 @@ twitter = "MelissaLaLinea"
 #instagram = ""
 
 [params]
-  body_classes = "bg-white slab"
+  body_classes = "bg-white site-font"
   background_color_class = "bg-white"
+  description = "hellow ro"
 
 [taxonomies]
 tag = "tags"
