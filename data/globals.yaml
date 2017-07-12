@@ -16,13 +16,6 @@ colors:
   instagram: "#e95950"
   youtube: "#bb0000"
 
-
-
-
-fonts:
-  sans-serif: "open sans"
-  slab: "'Roboto Slab', serif;"
-
 # classes
 copy_classes: "nested-copy-line-height nested-links nested-img mid-gray measure-wide-l"
 
