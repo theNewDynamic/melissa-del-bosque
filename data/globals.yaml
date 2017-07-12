@@ -4,13 +4,20 @@ colors:
   primary-color-light:  "#ABA194"
   accent-color:         "#F3F6F8"
   accent-color-light:   "#F2F4F3"
-  accent-color-dark:    "wheat"
+  accent-color-dark:    "black"
   text-color-primary:   "black"
   text-on-primary-color:   "#111"
   text-color-secondary: "#ccc"
   text-color-disabled:  "#F7f7f7"
   divider-color:        "#f6f6f6"
   warn-color: red
+  twitter: "#55acee"
+  facebook: "#3b5998"
+  instagram: "#e95950"
+  youtube: "#bb0000"
+
+
+
 
 fonts:
   sans-serif: "open sans"
