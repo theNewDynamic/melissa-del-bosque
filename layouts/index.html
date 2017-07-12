@@ -14,7 +14,7 @@
           {{/* <h1 class="f1 red sans-serfif">{{ .Title }}</h1> */}}
 
             {{ with .Params.description }}
-              <div class="cf pr3 f3 f2-ns lh-copy mb4 dark-gray">
+              <div class="cf pr3 f3 f2-ns lh-copy mb4 dark-gray site-font">
                 {{ . | markdownify }}
               </div>
             {{ end }}
@@ -29,7 +29,7 @@
           </div>
         </div>
       </div>
-      <div class="center dark-gray mb5 pa4 w-75-l">
+      <div class="center dark-gray mb5 pa4 site-font w-75-l">
         {{- partial "books/praise.html" (dict "count" 1 "context" . ) -}}
         <a href="{{ .URL }}#praise" class="mt5 {{ .Site.Data.globals.button_classes}}">More</a>
       </div>

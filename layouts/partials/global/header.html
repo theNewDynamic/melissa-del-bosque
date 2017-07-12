@@ -3,7 +3,7 @@
 {{ $featured_image := .Params.hero.image }}
   {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
   {{ $featured_image := $featured_image | absURL }}
-  <header class="black">
+  <header class="black site-font">
       {{ partial "global/navigation.html" .}}
       <div class="bg-center cover">
       <img src="{{ $featured_image }}" />
@@ -11,7 +11,7 @@
   </header>
 {{ else }}
   <header>
-    <div class="pb3-m pb5-l {{ .Site.Params.background_color_class | default "bg-primary-color-dark" }}">
+    <div class="pb3-m pb5-l site-font {{ .Site.Params.background_color_class | default "bg-primary-color-dark" }}">
       {{ partial "global/navigation.html" . }}
       <div class="ph3 ph4-ns pv3 tc-l">
         <h1 class="f-subheadline-l f2 fw2 lh-title light-silver mb0">

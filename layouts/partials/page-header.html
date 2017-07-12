@@ -3,7 +3,7 @@
   {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
   {{ $featured_image := $featured_image | absURL }}
   <header class="cover bg-top" style="background-image: url('{{ $featured_image }}');">
-    <div class="pb3-m pb6-l bg-black-60 vh-100">
+    <div class="pb3-m pb6-l bg-black-60 site-font vh-100">
       {{ partial "global/navigation.html" . }}
       <div class="flex pv6 ph3 ph4-ns">
         {{/* <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">{{ .Title | default .Site.Title }}</h1> */}}
@@ -12,7 +12,7 @@
 
 
         {{ with .Params.description  }}
-          <h2 class="f2-ns f3 fw2 lh-copy measure-narrow pb3 pt5 pt7-ns self-end white-80">
+          <h2 class="f2-ns f3 fw2 lh-copy measure-narrow pb3 pt5 pt7-ns site-font self-end white-80">
             {{ . }}
           </h2>
         {{ end }}
@@ -21,7 +21,7 @@
   </header>
 {{ else }}
   <header>
-    <div class="{{ $.Param "color_classes" | default "bg-primary-color-dark" }}">
+    <div class="site-font {{ $.Param "color_classes" | default "bg-primary-color-dark" }}">
       {{ partial "global/navigation.html" . }}
     </div>
   </header>
