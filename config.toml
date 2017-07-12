@@ -14,7 +14,7 @@ twitter = "MelissaLaLinea"
 #instagram = ""
 
 [params]
-  body_classes = "bg-white center site-fontTK sans-serif white mw9"
+  body_classes = "bg-white center sans-serif white mw9"
   color_classes = "black bg-white"
   description = "Melissa del Bosque is an award-winning investigative journalist who has covered the U.S.-Mexico border region for the past two decades."
 
