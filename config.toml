@@ -14,7 +14,7 @@ twitter = "MelissaLaLinea"
 #instagram = ""
 
 [params]
-  body_classes = "bg-white bl br b--light-gray center site-font white mw9"
+  body_classes = "bg-white bl br b--light-gray center site-font sans-serif white mw9"
   color_classes = "black bg-white"
   description = "hellow ro"
 

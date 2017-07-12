@@ -1,17 +1,17 @@
 {{ define "header" }}{{ partial "page-header.html" . }}j{{ end }}
 {{ define "main" }}
 
-<section class="br bb b--light-gray shadow-5 bg-white pa3 nested-copy-line-height lh-copy f4 nested-links nt5 measure-wide mid-gray">
+<section class="br bb b--light-gray shadow-2 bg-white mh3 pa3 nested-copy-line-height lh-copy f4 nested-links nt4 nt5-ns measure-wide mid-gray">
   {{ .Content }}
 </section>
 
 
   {{ range first 1 (where .Site.Pages "Section" "book") }}
-    <main class="cover"{{with .Params.hero.image }} style="background-image:url({{ . }});" {{end}}>
+    <main class="cover"{{with .Params.heros.image }} style="background-image:url({{ . }});" {{end}}>
       <div class="bg-black-70TK w-100 vh-100">
         <div class=" cf w-80-l ph4 ph4-m center pv4 pv5-l">
           <div class="fl w-100 w-50-l pt4-l">
-          <h1 class="f1 red sans-serfif">{{ .Title }}</h1>
+          {{/* <h1 class="f1 red sans-serfif">{{ .Title }}</h1> */}}
 
             {{ with .Params.description }}
               <div class="cf pr3 f3 f2-ns lh-copy mb4 dark-gray">
@@ -23,7 +23,7 @@
           <div class="fl w-100 w-50-l pl5-l mt4 mt0-ns">
             <a href="{{ .URL }}">
             {{ if .Params.images }}
-              <img src="{{ index (.Params.images) 0 }}" alt="Cover image for {{ .Title }}" class="w-90 shadow-5 mt3-s mt0-m mt0-l mb2 mb0-l">
+              <img src="{{ index (.Params.images) 1 }}" alt="Cover image for {{ .Title }}" class="w-90 shfadow-5 mt3-s mt0-m mt0-l mb2 mb0-l">
             {{ end }}
             </a>
           </div>

@@ -1,0 +1,28 @@
+
+{{ if .Params.hero.image }}
+{{ $featured_image := .Params.hero.image }}
+  {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
+  {{ $featured_image := $featured_image | absURL }}
+  <header class="black">
+      {{ partial "global/navigation.html" .}}
+      <div class="bg-center cover">
+      <img src="{{ $featured_image }}" />
+    </div>
+  </header>
+{{ else }}
+  <header>
+    <div class="pb3-m pb5-l {{ .Site.Params.background_color_class | default "bg-primary-color-dark" }}">
+      {{ partial "global/navigation.html" . }}
+      <div class="ph3 ph4-ns pv3 tc-l">
+        <h1 class="f-subheadline-l f2 fw2 lh-title light-silver mb0">
+          {{ .Title | default .Site.Title }}
+        </h1>
+        {{ with .Params.description }}
+          <h2 class="center f3-l f5 fw1 lh-copy mb4 measure-wide-l mt3 white-80">
+            {{ . }}
+          </h2>
+        {{ end }}
+      </div>
+    </div>
+  </header>
+{{ end }}
