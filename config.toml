@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Melissa Del Bosque"
-baseurl = "https://melissa-del-busque.netlify.com"
+baseurl = "https://melissa-del-bosque.netlify.com"
 theme = "thenewdynamic-hugo-core-theme"
 
 metaDataFormat = "yaml"
