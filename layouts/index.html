@@ -1,16 +1,24 @@
-{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
+{{ define "header" }}{{ partial "page-header.html" . }}j{{ end }}
 {{ define "main" }}
-  {{ range first 1 (where .Data.Pages "Section" "book") }}
-    <main class="cover vh-100" style="background-image:url({{ .Params.hero.image }});">
-      <div class="bg-black-70 w-100 vh-100">
+
+<section class="br bb b--light-gray shadow-5 bg-white pa3 nested-copy-line-height lh-copy f4 nested-links nt5 measure-wide mid-gray">
+  {{ .Content }}
+</section>
+
+
+  {{ range first 1 (where .Site.Pages "Section" "book") }}
+    <main class="cover"{{with .Params.hero.image }} style="background-image:url({{ . }});" {{end}}>
+      <div class="bg-black-70TK w-100 vh-100">
         <div class=" cf w-80-l ph4 ph4-m center pv4 pv5-l">
           <div class="fl w-100 w-50-l pt4-l">
+          <h1 class="f1 red sans-serfif">{{ .Title }}</h1>
+
             {{ with .Params.description }}
-              <div class="cf pr3 f3 f3-ns lh-copy mb4 white">
+              <div class="cf pr3 f3 f2-ns lh-copy mb4 dark-gray">
                 {{ . | markdownify }}
               </div>
             {{ end }}
-            {{ partial "books/buylinks" (dict "context" . "buylinkClasses" "f5 link bg-animate hover-bg-near-black br2 ba ph3 pv2 mr1 mb2 db dib-ns white" "textcolor" "white") }}
+            {{ partial "books/buylinks" (dict "context" . "buylinkClasses" "f5 link bg-animate hover-bg-near-black br2 ba ph3 pv2 mr1 mb2 db dib-ns black" "textcolor" "black") }}
           </div>
           <div class="fl w-100 w-50-l pl5-l mt4 mt0-ns">
             <a href="{{ .URL }}">
@@ -21,8 +29,9 @@
           </div>
         </div>
       </div>
-      <div class="center mb5 pa4 w-75-l">
-        {{- partial "books/praise.html" (dict "count" 100 "context" . ) -}}
+      <div class="center dark-gray mb5 pa4 w-75-l">
+        {{- partial "books/praise.html" (dict "count" 1 "context" . ) -}}
+        <a href="{{ .URL }}#praise" class="mt5 {{ .Site.Data.globals.button_classes}}">More</a>
       </div>
     </main>
   {{ end }}
