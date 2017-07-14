@@ -1,8 +1,8 @@
 
 {{ if .Params.hero.image }}
 {{ $featured_image := .Params.hero.image }}
-  {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
-  {{ $featured_image := $featured_image | absURL }}
+  {{/* Trimming the slash and adding relURL make sure the image works no matter where our site lives */}}
+  {{ $featured_image := $featured_image | relURL }}
   <header class="black site-font">
       {{ partial "global/navigation.html" .}}
       <div class="bg-center cover">
