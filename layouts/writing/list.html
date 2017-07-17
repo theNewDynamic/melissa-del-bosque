@@ -6,21 +6,20 @@
   </article>
   <div class="mw8 center">
 
-    <section class="flex-ns flex-wrap justify-around mt5">
+    <section class="flex-ns flex-wrap justify-between mt5">
       {{ range  (.Paginator 30).Pages }}
-        <div class="relative w-100  mb4 bg-white">
-
-          <div class="relative w-100 mb4 bg-inherit nested-copy-line-height">
+        <div class="relative w-100 w-30-l mb4 bg-near-white">
+          <div class="relative w-100 bg-inherit nested-copy-line-height">
             <div class="mb3 pa4 black overflow-hidden">
               {{ with .Params.category }}
               <span class="f6 db">{{ . }}</span>
               {{ end }}
               <h1 class="f3 near-black">
-                <a href="{{ .Params.link_to_original }}" class="link black dim">
+                <a href="{{ .Params.link_to_original }}" class="link accent-color dim">
                   {{ .Title }} {{ partial "global/external-link.html" . }}
                 </a>
               </h1>
-              <h2 class="f4 i">{{ .Params.where_published }}</h2>
+              <h2 class="f5 i">{{ .Params.where_published }}</h2>
               <div class="nested-links f5 lh-copy black nested-copy-line-height">
                 {{ .Description }}
               </div>
