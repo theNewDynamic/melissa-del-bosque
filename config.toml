@@ -36,9 +36,9 @@ category = "categories"
     url = "/book/bloodlines/"
 [[menu.main]]
     name = "Articles"
-    identifier = "writing"
+    identifier = "articles"
     weight = 30
-    url = "/writing/"
+    url = "/article/"
 
 
 # [[menu.main]]
