@@ -7,10 +7,7 @@
       {{ partial "global/navigation.html" . }}
       <div class="flex pv6 ph3 ph4-ns">
         {{/* <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">{{ .Title | default .Site.Title }}</h1> */}}
-
         <div class="flex-auto"></div>
-
-
         {{ with .Params.description  }}
           <h2 class="f2-ns f3 fw2 lh-copy measure-narrow pb3 pt5 pt7-ns site-font self-end white-80">
             {{ . }}
