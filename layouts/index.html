@@ -1,4 +1,8 @@
-{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
+{{ define "header" }}
+<div class="site-font {{ .Site.Params.background_color_class | default "bg-primary-color-dark" }}">
+  {{ partial "global/navigation.html" . }}
+  </div>
+{{ end }}
 {{ define "main" }}
   {{ range first 1 (where .Data.Pages "Section" "book") }}
     <main>
