@@ -18,6 +18,7 @@ twitter = "MelissaLaLinea"
   color_classes = "black bg-white"
   background_color_class = "accent-color-dark"
   description = "Melissa del Bosque is an award-winning investigative journalist who has covered the U.S.-Mexico border region for the past two decades."
+  books_header_class = "dn"
 
 [taxonomies]
 tag = "tags"
@@ -43,10 +44,10 @@ category = "categories"
 
 
 [[menu.main]]
-    name = "Contact"
-    identifier = "contact"
+    name = "About/Contact"
+    identifier = "about"
     weight = 3
-    url = "/contact/"
+    url = "/about/"
 # [[menu.main]]
 #     name = "journal"
 #     identifier = "journal"
