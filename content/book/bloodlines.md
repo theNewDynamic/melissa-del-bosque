@@ -19,9 +19,6 @@ buy_links:
 images:
   - /images/bloodlines-cover.jpg
   - /images/3D_BloodlinesSM_cropped.jpg
-hero:
-  image: /images/bloodlines-banner.jpg
-
 description: "Drugs, money, cartels: this is what FBI rookie Scott Lawson expected when he was sent to the border town of Laredo, but instead he’s deskbound writing intelligence reports about the drug war."
 ---
 
