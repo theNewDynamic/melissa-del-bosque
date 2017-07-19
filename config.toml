@@ -42,18 +42,18 @@ category = "categories"
     url = "/article/"
 
 
-# [[menu.main]]
-#     name = "contact"
-#     identifier = "contact"
-#     weight = 3
-#     url = "/contact/"
+[[menu.main]]
+    name = "Contact"
+    identifier = "contact"
+    weight = 3
+    url = "/contact/"
 # [[menu.main]]
 #     name = "journal"
 #     identifier = "journal"
 #     weight = 4
 #     url = "/journal/"
-# [[menu.main]]
-#     name = "events"
-#     identifier = "events"
-#     weight = 5
-#     url = "/event/"
+[[menu.main]]
+    name = "Events"
+    identifier = "events"
+    weight = 5
+    url = "/event/"
