@@ -10,6 +10,7 @@ colors:
   text-color-secondary: "#ccc"
   text-color-disabled:  "#F7f7f7"
   divider-color:        "#f6f6f6"
+  red: "#ec1c23"
   warn-color: red
   twitter: "#55acee"
   facebook: "#3b5998"
