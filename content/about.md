@@ -1,8 +1,8 @@
 ---
-title: "About"
+title: "About Melissa"
 description: "Melissa del Bosque is an award-winning investigative journalist who has covered the U.S.-Mexico border region for the past two decades."
-#images:
- #- /images/melissa-del-bosque-headshot.jpg
+images:
+- /images/melissa-del-bosque-headshot.jpg
 ---
 {{< figure src="/images/melissa-del-bosque-headshot_opt.jpg" title="Melissa Del Bosque" >}}
 
