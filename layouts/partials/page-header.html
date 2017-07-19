@@ -1,25 +1,15 @@
-{{ if .Params.images }}
-{{ $featured_image := index (.Params.images) 0 }}
-  {{/* Trimming the slash and adding relURL make sure the image works no matter where our site lives */}}
-  {{ $featured_image := $featured_image | relURL }}
-  <header class="cover bg-top" style="background-image: url('{{ $featured_image }}');">
-    <div class="pb3-m pb6-l bg-black-50 site-font vh-100">
-      {{ partial "global/navigation.html" . }}
-      <div class="flex pv6 ph3 ph4-ns">
-        {{/* <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">{{ .Title | default .Site.Title }}</h1> */}}
-        <div class="flex-auto"></div>
-        {{ with .Params.description  }}
-          <h2 class="f2-ns f3 fw2 lh-copy measure-narrow pb3 pt5 pt7-ns site-font self-end white-80">
-            {{ . }}
-          </h2>
-        {{ end }}
-      </div>
+<header>
+  <div class="site-font {{ .Site.Params.background_color_class | default "bg-primary-color-dark" }}">
+    {{ partial "global/navigation.html" . }}
+    <div class="ph3 ph4-ns tc-l">
+      <h1 class="f-subheadline-l f2 fw2 lh-title accent-color mb0">
+        {{ .Title | default .Site.Title }}
+      </h1>
+      {{ with .Params.description }}
+        <h2 class="center f4 lh-copy measure-wide-l mv3">
+          {{ . }}
+        </h2>
+      {{ end }}
     </div>
-  </header>
-{{ else }}
-  <header>
-    <div class="site-font {{ $.Param "color_classes" | default "bg-primary-color-dark" }}">
-      {{ partial "global/navigation.html" . }}
-    </div>
-  </header>
-{{ end }}
+  </div>
+</header>
