@@ -9,7 +9,7 @@ description: ""
 
 [Email](mailto:Melissadelbosque1@gmail.com)
 
-Twitter: [@melissalalinea](https://twitter.com/melissalalinea/)
+Twitter: [@MelissaLaLinea](https://twitter.com/melissalalinea/)
 
 For information and publicity regarding Bloodlines: The True Story of a Drug Cartel, the FBI and the Battle for a Horse-Racing Dynasty, please contact:
 
