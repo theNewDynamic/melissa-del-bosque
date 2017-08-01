@@ -5,4 +5,7 @@ category: Investigative
 where_published: "The Investigative Fund"
 link_to_original: "https://www.texasobserver.org/kochworld/"
 description: "To see how the Koch brothers' free-market industry utopia operates, look no further than Corpus Christi, Texas, where the billionaires own two oil refineries."
+images: 
+- /images/thumb-kock.jpg
+image_credit: ""
 ---
