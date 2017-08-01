@@ -1,5 +1,5 @@
 ---
-title: "This is Our Home"
+title: "Into the Wilderness"
 date: 2014-08-06T22:39:00-05:00
 category: Investigative
 where_published: "The Investigative Fund"
