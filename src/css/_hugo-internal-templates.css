@@ -25,3 +25,18 @@
 .pagination li.active a:visited {
   background-color: #ddd;
 }
+
+figure.headshot {
+  text-align: center;
+  margin: 0 20px 20px 0;
+}
+
+figure h4 {
+  margin-top: 0;
+}
+
+figure.headshot img {
+  max-width: 200px;
+  border: 1px solid black;
+  padding: 5px;
+}
