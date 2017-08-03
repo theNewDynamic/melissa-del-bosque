@@ -5,4 +5,7 @@ category: Investigative
 where_published: "The Investigative Fund"
 link_to_original: "https://www.texasobserver.org/the-deadliest-place-in-mexico/"
 description: "Who's killing the people of the Juarez Valley? Hint: It's not just the drug cartels."
+images: 
+- /images/thumb-deadly.jpg
+image_credit: ""
 ---

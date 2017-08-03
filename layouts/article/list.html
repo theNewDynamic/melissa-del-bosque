@@ -11,6 +11,11 @@
         <div class="relative w-100 mb4 bg-near-white">
           <div class="relative w-100 bg-inherit nested-copy-line-height">
             <div class="mb3 pa4 black overflow-hidden">
+              {{ with .Params.images }}
+              <span class="dib fl w-25 mr4">
+                <img src="{{ index . 0 }}" />
+              </span>
+              {{ end }}              
               {{ with .Params.category }}
               <span class="f6 db">{{ . }}</span>
               {{ end }}

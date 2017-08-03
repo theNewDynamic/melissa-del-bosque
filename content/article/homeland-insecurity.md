@@ -5,4 +5,7 @@ category: Investigative
 where_published: "The Investigative Fund"
 link_to_original: "https://www.texasobserver.org/homeland-security-corruption-border-patrol/"
 description: "How to run drugs, smuggle migrants, and get away with it at America's biggest law enforcement agency."
+images: 
+- /images/thumb-homeland.jpg
+image_credit: ""
 ---

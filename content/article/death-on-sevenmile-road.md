@@ -5,4 +5,7 @@ category: Investigative
 where_published: "The Investigative Fund"
 link_to_original: "https://www.texasobserver.org/human-cost-border-security-build-up/"
 description: "As border security build-up in Texas intensified, two brothers paid a smuggler to bring them to the US. Only one lived to tell their story."
+images: 
+- /images/thumb-sevenmile.jpg
+image_credit: ""
 ---

@@ -5,4 +5,7 @@ category: Investigative
 where_published: "The Investigative Fund"
 link_to_original: "https://www.texasobserver.org/children-of-the-exodus/"
 description: "US immigration officials deport tens of thousands of unaccompanied children to Mexico each year, many of whom grew up in the United States. What, exactly, becomes of them?"
+images: 
+- /images/thumb-exodus.jpg
+image_credit: ""
 ---
