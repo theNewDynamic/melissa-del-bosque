@@ -2,10 +2,9 @@
 title: "About Melissa"
 description: "Melissa del Bosque is an award-winning investigative journalist who has covered the U.S.-Mexico border region for the past two decades."
 images:
-- /images/melissa-del-bosque-headshot.jpg
-layout: about.html
+  - /images/melissa-del-bosque-headshot_opt_v.jpg
+  - /images/melissa-del-bosque-headshot.jpg
 ---
-{{< figure class="headshot fl" src="/images/melissa-del-bosque-headshot_opt_v.jpg" title="Melissa del Bosque" >}}
 
 Melissa del Bosque is an investigative reporter with the *Texas Observer* and a Lannan reporting fellow with The Investigative Fund at The Nation Institute. She has covered the U.S.-Mexico border since 1998 for various media outlets, including *the Guardian*, and *Time*. Her work has also been featured on Democracy Now, PBS, MSNBC, the BBC, and NPR. She has reported on topics including border militarization, economic inequality, the plight of unaccompanied migrant children in Mexico, and asylum seekers in the United States.
 
