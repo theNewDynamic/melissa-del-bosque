@@ -1,6 +1,6 @@
 ---
-title: "About Melissa"
-description: "Melissa del Bosque is an award-winning investigative journalist who has covered the U.S.-Mexico border region for the past two decades."
+title: " "
+description: ""
 images:
   - /images/melissa-del-bosque-headshot_opt_v.jpg
   - /images/melissa-del-bosque-headshot.jpg
