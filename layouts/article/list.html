@@ -1,6 +1,6 @@
 {{ define "main" }}
   <article class="cf">
-    <div class="measure-l center f3 lh-copy nested-copy-line-height nested-links nested-img mid-gray">
+    <div class="measure-l center f3 lh-copy nested-copy-line-height nested-links nested-img mid-gray site-font">
       {{ .Content }}
     </div>
   </article>
@@ -15,7 +15,7 @@
               <span class="dib fl w-25 mr4">
                 <img src="{{ index . 0 }}" />
               </span>
-              {{ end }}              
+              {{ end }}
               {{ with .Params.category }}
               <span class="f6 db">{{ . }}</span>
               {{ end }}
