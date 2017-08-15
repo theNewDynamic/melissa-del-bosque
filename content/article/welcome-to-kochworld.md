@@ -2,7 +2,7 @@
 title: "Welcome to Kochworld"
 date: 2012-10-25T22:39:00-05:00
 category: Investigative
-where_published: "The Investigative Fund"
+where_published: "The Texas Observer"
 link_to_original: "https://www.texasobserver.org/kochworld/"
 description: "To see how the Koch brothers' free-market industry utopia operates, look no further than Corpus Christi, Texas, where the billionaires own two oil refineries."
 images: 
