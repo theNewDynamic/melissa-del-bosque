@@ -1,6 +1,6 @@
 ---
 title: "Texas Book Festival"
-date: 2017-11-04T19:00:00-04:00
+date: 2017-11-05T19:00:00-04:00
 draft: false
 images:
  - 
