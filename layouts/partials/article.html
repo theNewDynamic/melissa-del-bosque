@@ -1,5 +1,8 @@
 <article class="h-entry center cf min-vh-100 mw7 pv5 ph3 ph4-ns">
   <section class="nested-copy-line-height lh-copy f4 nested-links nested-imgTK mid-gray">
+  {{/* <h1 class="f3 site-font lh-title accent-color mb0">
+    {{ .Title | default .Site.Title }}
+  </h1> */}}
     {{ with .Params.images }}
       <img src="{{ index . 0 }}" class="fl mb2 mr3 mt2 mw5 shadow-5" alt="Image from {{ $.Title }}" />
     {{ end }}
