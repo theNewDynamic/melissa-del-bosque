@@ -1,5 +1,5 @@
 ---
-title: "Wild Detectives"
+title: "The Wild Detectives"
 date: 2017-10-19T19:30:00-04:00
 draft: false
 images:
