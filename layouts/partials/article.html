@@ -4,7 +4,7 @@
     {{ .Title | default .Site.Title }}
   </h1> */}}
     {{ with .Params.images }}
-      <img src="{{ index . 0 }}" class="fl mb2 mr3 mt2 mw5 shadow-5" alt="Image from {{ $.Title }}" />
+      <img src="{{ index . 0 }}" style="max-width: 340px;" class="fl mb2 mr3 mt2 ba pa1" alt="Image from {{ $.Title }}" />
     {{ end }}
     {{ .Content }}
   </section>
