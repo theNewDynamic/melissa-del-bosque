@@ -13,6 +13,27 @@ twitter = "MelissaLaLinea"
 #youtube = ""
 #instagram = ""
 
+[outputs]
+  home = ["HTML", "RSS", "HEADERS"]
+
+[mediaTypes]
+[mediaTypes."text/netlify"]
+  suffix = ""
+  delimiter = ""
+
+[outputFormats]
+[outputFormats.REDIR]
+  mediatype = "text/netlify"
+  baseName = "_redirects"
+  isPlainText = true
+  notAlternative = true
+[outputFormats.HEADERS]
+  mediatype = "text/netlify"
+  baseName = "_headers"
+  isPlainText = true
+  notAlternative = true
+
+
 [params]
   body_classes = "bg-white center site-font white mw9"
   color_classes = "black bg-white"
