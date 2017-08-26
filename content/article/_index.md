@@ -1,4 +1,11 @@
 ---
-title: "Selected Works"
-date: 2017-03-02T12:00:00-05:00
+title: Selected Works
+date: true
+category: Investigative
+images: []
+image_credit: ''
+where_published: ''
+link_to_original: ''
+description: ''
+
 ---
