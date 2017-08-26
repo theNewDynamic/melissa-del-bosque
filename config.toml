@@ -2,7 +2,7 @@ languageCode = "en-us"
 title = "Melissa del Bosque"
 baseurl = "https://www.melissadelbosque.com"
 theme = "thenewdynamic-hugo-core-theme"
-
+googleAnalytics = "UA-105300766-1"
 metaDataFormat = "yaml"
 log = false
 #SectionPagesMenu = "main"
