@@ -1,6 +1,6 @@
 ---
 category: Investigative
-date: 2012-10-25T22:39:00-05:00
+date: 2012-10-25 00:00:00 -0400
 description: To see how the Koch brothers' free-market industry utopia operates, look
   no further than Corpus Christi, Texas, where the billionaires own two oil refineries.
 image_credit: ''
