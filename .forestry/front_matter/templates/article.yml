@@ -8,14 +8,14 @@ fields:
   default: ''
 - name: date
   label: Date
-  type: date
+  type: boolean
   hidden: false
-  default:
-- name: category
+  default: 
+- name: category_t
   label: Category
   type: text
   hidden: false
-  default:
+  default: ''
 - name: images
   label: Image
   type: image_gallery
