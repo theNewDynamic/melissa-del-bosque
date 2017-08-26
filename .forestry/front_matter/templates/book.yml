@@ -118,9 +118,3 @@ fields:
   type: boolean
   hidden: false
   default: false
-- name: genre
-  label: Genre
-  type: list
-  hidden: false
-  default:
-  - fiction
