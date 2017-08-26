@@ -1,7 +1,7 @@
 ---
 title: aaaaa test
 date: true
-category: Test
+category: Investigative
 category_t: ''
 images: []
 image_credit: ''
