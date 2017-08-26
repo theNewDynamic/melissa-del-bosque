@@ -10,13 +10,13 @@ fields:
   label: Date
   type: boolean
   hidden: false
-  default:
+  default: 
 - type: select
   name: category
   config:
     source:
       type: datafiles
-      file: article-categories
+      file: article-categories-yaml
       path: category
   label: Category
 - name: images
