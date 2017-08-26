@@ -10,4 +10,6 @@ sections: ''
 version: '0.26'
 sections:
   article:
-    default_front_matter_template: Article
+    default_front_matter_template: article
+  book:
+    default_front_matter_template: book
