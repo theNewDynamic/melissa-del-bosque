@@ -5,6 +5,7 @@ theme = "thenewdynamic-hugo-core-theme"
 googleAnalytics = "UA-105300766-1"
 metaDataFormat = "yaml"
 log = false
+disableAliases = true
 #SectionPagesMenu = "main"
 
 [social]
@@ -14,7 +15,7 @@ twitter = "MelissaLaLinea"
 #instagram = ""
 
 [outputs]
-  home = ["HTML", "RSS", "HEADERS"]
+  home = ["HTML", "RSS", "HEADERS", "REDIRECTS"]
 
 [mediaTypes]
 [mediaTypes."text/netlify"]
@@ -22,7 +23,7 @@ twitter = "MelissaLaLinea"
   delimiter = ""
 
 [outputFormats]
-[outputFormats.REDIR]
+[outputFormats.REDIRECTS]
   mediatype = "text/netlify"
   baseName = "_redirects"
   isPlainText = true
@@ -34,7 +35,7 @@ twitter = "MelissaLaLinea"
   notAlternative = true
 
 
-[params]
+[params]  
   body_classes = "bg-white center site-font white mw9"
   color_classes = "black bg-white"
   background_color_class = "accent-color-dark"
