@@ -10,7 +10,7 @@ fields:
   label: Tags
   type: text
   hidden: false
-  default:
+  default: 
 - name: images
   label: Images
   type: text

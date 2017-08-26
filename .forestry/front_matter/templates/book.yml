@@ -10,12 +10,12 @@ fields:
   label: Subtitle
   type: textarea
   hidden: false
-  default:
+  default: 
 - name: date
   label: Date
   type: datetime
   hidden: false
-  default:
+  default: 
 - name: publication_date
   label: Publication date
   type: datetime
@@ -46,7 +46,7 @@ fields:
     hidden: false
     default: ''
   hidden: false
-  default:
+  default: 
 - name: buy_links
   label: Buy links
   type: field_group
@@ -92,12 +92,12 @@ fields:
   label: Images
   type: image_gallery
   hidden: false
-  default:
+  default: 
 - name: description
   label: Description
   type: text
   hidden: false
-  default:
+  default: 
 - name: external_links
   label: External links
   type: list
