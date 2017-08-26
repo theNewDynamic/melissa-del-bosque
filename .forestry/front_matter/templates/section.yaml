@@ -1,6 +1,6 @@
 ---
 pages:
-- article/_index.md
+  - article/_index.md
 hide_body: false
 fields:
 - name: title
@@ -16,4 +16,3 @@ fields:
   type: image_gallery
   hidden: false
   default: ''
-  
