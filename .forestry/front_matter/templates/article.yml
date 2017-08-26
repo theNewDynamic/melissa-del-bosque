@@ -40,3 +40,10 @@ fields:
 - name: description
   label: description
   type: textarea
+- type: select
+  name: category
+  config:
+    source:
+      type: datafiles
+      file: article-categories-yaml
+  label: Category
