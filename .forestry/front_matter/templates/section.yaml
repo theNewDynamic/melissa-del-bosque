@@ -1,6 +1,4 @@
 ---
-pages:
-  - article/_index.md
 hide_body: false
 fields:
 - name: title
@@ -11,6 +9,7 @@ fields:
 - name: description
   label: description
   type: textarea
+  hidden: false
 - name: images
   label: Image
   type: image_gallery
