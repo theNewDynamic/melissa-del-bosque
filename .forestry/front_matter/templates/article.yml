@@ -8,9 +8,9 @@ fields:
   default: ''
 - name: date
   label: Date
-  type: boolean
+  type: date
   hidden: false
-  default: 
+  default:
 - type: select
   name: category
   config:
