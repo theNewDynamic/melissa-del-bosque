@@ -1,0 +1,19 @@
+---
+pages:
+- article/_index.md
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default:
+- name: description
+  label: description
+  type: textarea
+- name: images
+  label: Image
+  type: image_gallery
+  hidden: false
+  default: ''
+  
