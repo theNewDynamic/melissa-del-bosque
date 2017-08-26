@@ -6,7 +6,7 @@ description: To see how the Koch brothers' free-market industry utopia operates,
 image_credit: ''
 images:
 - "/images/thumb-koch.jpg"
-link_to_original: https://www.texasobserver.org/kochworld/
+link_to_original: https://www.texasobserver.org/kochworld
 title: Welcome to Kochworld
 where_published: The Texas Observer/The Investigative Fund
 
