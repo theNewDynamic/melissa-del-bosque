@@ -45,5 +45,6 @@ fields:
   config:
     source:
       type: datafiles
-      file: article-categories-yaml
+      file: article-categories-two-yaml
+      path: category
   label: Category
