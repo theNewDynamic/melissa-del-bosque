@@ -6,11 +6,9 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: date_old
+- type: datetime
+  name: date
   label: Date
-  type: boolean
-  hidden: false
-  default: 
 - type: select
   name: category
   config:
