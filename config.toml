@@ -35,7 +35,7 @@ twitter = "MelissaLaLinea"
   notAlternative = true
 
 
-[params]  
+[params]
   body_classes = "bg-white center site-font white mw9"
   color_classes = "black bg-white"
   background_color_class = "accent-color-dark"
@@ -43,6 +43,8 @@ twitter = "MelissaLaLinea"
   books_header_class = "dn"
   # js_path = "/static/dist/js"
   # css_path = "/static/dist/css"
+[params.ContentSecurityPolicy]
+  default-src = "'self' data:"
 
 [taxonomies]
 tag = "tags"
