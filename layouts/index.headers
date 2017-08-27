@@ -6,11 +6,11 @@
   Referrer-Policy: no-referrer-when-downgrade
 
 /*
-  {{$stylesheet := readDir (.Site.Params.css_path | default "/themes/thenewdynamic-hugo-core-theme/static/dist/css")}}{{$scripts := readDir  (.Site.Params.js_path | default "/themes/thenewdynamic-hugo-core-theme/static/dist/js")}}
+  {{$stylesheet := readDir (.Site.Params.Dev.css_path | default "/themes/thenewdynamic-hugo-core-theme/static/dist/css")}}{{$scripts := readDir  (.Site.Params.js_path | default "/themes/thenewdynamic-hugo-core-theme/static/dist/js")}}
   {{range $stylesheet}}
   Link: <{{- .Name  | add "/dist/css/" -}}>; rel=preload; as=style
   {{end}}
-  
+
   # Set a long cache expiry on asset urls
   {{range $stylesheet}}
   {{.Name  | add "/dist/css/"}}

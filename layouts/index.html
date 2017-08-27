@@ -1,5 +1,5 @@
 {{ define "header" }}
-<div class="site-font {{ .Site.Params.background_color_class | default "bg-primary-color-dark" }}">
+<div class="site-font {{ .Site.Params.styles.background_color_class | default "bg-primary-color-dark" }}">
   {{ partial "global/navigation.html" . }}
   </div>
 {{ end }}
