@@ -15,7 +15,7 @@ twitter = "MelissaLaLinea"
 #instagram = ""
 
 [outputs]
-  home = ["HTML", "RSS", "HEADERS", "REDIRECTS"]
+  home = ["HTML", "RSS", "HEADERS", "REDIRECTS", "CSS"]
 
 [mediaTypes]
 [mediaTypes."text/netlify"]
@@ -43,28 +43,11 @@ twitter = "MelissaLaLinea"
   color_classes = "black bg-white"
   background_color_class = "accent-color-dark"
   books_header_class = "dn"
-[params.styles.colors]
-  primary-color =        "#fff"
-  primary-color-dark =   "#111"
-  primary-color-light =  "#ABA194"
-  accent-color =         "#D3002D"
-  accent-color-light =   "#F2F4F3"
-  accent-color-dark =    "black"
-  text-color-primary =   "black"
-  text-on-primary-color =   "#111"
-  text-color-secondary = "#555"
-  text-color-disabled =  "#F7f7f7"
-  divider-color =        "#f6f6f6"
-  red = "#ec1c23"
-  warn-color = "red"
-  twitter = "#55acee"
-  facebook = "#3b5998"
-  instagram = "#e95950"
-  youtube = "#bb0000"
+
 
 [params.dev]
-  # js_path = "/static/dist/js"
-  # css_path = "/static/dist/css"
+  js_path = "/static/dist/js"
+  css_path = "/static/dist/css"
 
 [taxonomies]
 tag = "tags"
