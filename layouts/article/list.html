@@ -23,7 +23,9 @@
                   {{ .Title }} {{ partial "global/external-link.html" . }}
                 </a>
               </h1>
-              <h2 class="f5 i">{{ .Params.where_published }}</h2>
+              {{with .Params.where_published }}
+                <h2 class="f5 i">{{ .}}</h2>
+              {{end}}
               <div class="nested-links f5 lh-copy black nested-copy-line-height">
                 {{ .Description }}
               </div>

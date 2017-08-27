@@ -1,11 +1,29 @@
 <article class="h-entry center cf min-vh-100 mw7 pv5 ph3 ph4-ns">
-  <section class="nested-copy-line-height lh-copy f4 nested-links nested-imgTK mid-gray">
-  {{/* <h1 class="f3 site-font lh-title accent-color mb0">
-    {{ .Title | default .Site.Title }}
-  </h1> */}}
+  <section class="nested-copy-line-height lh-copy f4 nested-links mid-gray text-color-primary">
+  {{if eq .Section "article"}}
+
+    {{ with .Params.category }}
+      <h3 class="f6 db sans-serif">
+        {{ . }} {{$.Section | humanize }}
+      </h3>
+    {{ end }}
+    {{/* we are hiding titles on some pages, so selectively show it. */}}
+    <h1 class="f2 site-font lh-title accent-color mb0">
+      {{ .Title | default .Site.Title }}
+    </h1>
+  {{end}}
+
     {{ with .Params.images }}
       <img src="{{ index . 0 }}" style="max-width: 340px;" class="fl mb2 mr3 mt2 ba pa1" alt="Image from {{ $.Title }}" />
     {{ end }}
-    {{ .Content }}
+    {{ if .Content }}
+      {{.Content}}
+    {{else if .Params.description}}
+      {{.Params.description}}
+    {{end}}
+    {{with .Params.where_published }}
+      <h2 class="dib f5 i">{{ .}}</h2>
+    {{end}}
+    {{ partial "global/external-link.html" . }}
   </section>
 </article>
