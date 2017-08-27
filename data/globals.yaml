@@ -7,7 +7,7 @@ colors:
   accent-color-dark:    "black"
   text-color-primary:   "black"
   text-on-primary-color:   "#111"
-  text-color-secondary: "#ccc"
+  text-color-secondary: "#555"
   text-color-disabled:  "#F7f7f7"
   divider-color:        "#f6f6f6"
   red: "#ec1c23"
