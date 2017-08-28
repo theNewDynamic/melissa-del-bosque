@@ -40,4 +40,4 @@ fields:
   default: ''
 - name: description
   label: description
-  type: textarea
+  type: text
