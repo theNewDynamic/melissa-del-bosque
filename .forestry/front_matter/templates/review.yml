@@ -17,11 +17,13 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: book
-  label: Book--
-  type: text
-  hidden: false
-  default: book/slug.md
+- type: select
+  name: book
+  config:
+    source:
+      type: pages
+      section: book
+  label: Book
 - type: datetime
   name: date
   label: Date
