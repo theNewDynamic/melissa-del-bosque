@@ -18,7 +18,7 @@ fields:
   hidden: false
   default: ''
 - name: book
-  label: Book
+  label: Book--
   type: text
   hidden: false
   default: book/slug.md
