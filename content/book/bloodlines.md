@@ -15,13 +15,15 @@ editions_isbn:
   hardcover: 9780062448484
   paperback: ''
   ebook: 9780062448507
+external_link_titles:
+- Universal, Channing Tatum, Michael De Luca Tap 'Bloodlines'
 external_links:
-- title: Universal, Channing Tatum, Michael De Luca Tap 'Bloodlines.'
-  link: http://deadline.com/2017/08/channing-tatum-bloodlines-michael-deluca-jonathan-herman-drug-cartel-fbi-movie-universal-pictures-1202149656
+- copy: 'Drugs, money, cartels: this is what FBI rookie Scott Lawson expected when
+    he was sent to the border town of Laredo, but instead he’s deskbound writing intelligence
+    reports about the drug war.'
   image: "/images/channing.jpg"
-  copy: 'Drugs, money, cartels: this is what FBI rookie Scott Lawson expected
-    when he was sent to the border town of Laredo, but instead he’s deskbound writing
-    intelligence reports about the drug war.'
+  link: http://deadline.com/2017/08/channing-tatum-bloodlines-michael-deluca-jonathan-herman-drug-cartel-fbi-movie-universal-pictures-1202149656
+  title: Universal, Channing Tatum, Michael De Luca Tap 'Bloodlines.'
 genre: []
 images:
 - "/images/3D_BloodlinesSM_cropped.jpg"
