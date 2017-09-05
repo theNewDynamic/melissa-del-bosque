@@ -9,37 +9,7 @@
           <div class="bb b--black-20 f4 measure-wide mv4 nested-copy-line-height">
             {{ .Content }}
           </div>
-          <div class="mw8 center">
-            <section class="mt3">
-              
-                <div class="relative w-100 mb4 bg-near-white">
-                  <div class="relative w-100 bg-inherit nested-copy-line-height">
-                    <div class="mb3 pa4 black overflow-hidden">
-                      {{ with .Params.images }}
-                      <span class="dib fl w-25 mr4">
-                        <img src="{{ index . 2 }}" />
-                      </span>
-                      {{ end }}
-                      <h1 class="f3 near-black">
-                      {{ with .Params.external_links }}  
-                          <a href="{{ index . 0 }}" class="link accent-color dim">
-                      {{ end }}                      
-                          {{ with .Params.external_link_titles }}
-                          {{ index . 0 }} 
-                          {{ end }}
-                          {{ partial "global/external-link.html" . }}
-                          </a>                
-                      </h1>
-                      <h2 class="f5 i">{{ .Params.where_published }}</h2>
-                      <div class="nested-links f5 lh-copy black nested-copy-line-height">
-                        {{ .Description }}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              
-            </section>
-          </div>          
+          {{partial "books/external-links.html" .}}
           {{ partial "books/buylinks" (dict "context" . "buylinkClasses" "ba bg-animate black br2 db dib-ns f5 hover-bg-near-black link mb2 mr1 ph3 pv2    hover-white" "textcolor" "black") }}
         </div>
         <div class="fl pt2-l w-100 w-40-l pl4">
@@ -47,7 +17,7 @@
           <img src="{{ index (.Params.images) 0 }}" alt="Cover image for {{ .Title }}" class="mb2 mb0-l mt0-l mt0-m mt3-s w-90">
         {{ end }}
           {{ partial "books/meta-data.html" . }}
-        </div>        
+        </div>
       </div>
     </section>
 
