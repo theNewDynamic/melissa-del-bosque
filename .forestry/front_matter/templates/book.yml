@@ -116,4 +116,4 @@ fields:
     name: copy
     label: Copy
     config:
-      wysiwyg: true
+      wysiwyg: ''
