@@ -18,9 +18,10 @@ editions_isbn:
 external_link_titles:
 - Universal, Channing Tatum, Michael De Luca Tap 'Bloodlines'
 external_links:
-- copy: 'Drugs, money, cartels: this is what FBI rookie Scott Lawson expected when
-    he was sent to the border town of Laredo, but instead he’s deskbound writing intelligence
-    reports about the drug war.'
+- copy: 'EXCLUSIVE: Universal Pictures has optioned the upcoming Melissa Del Bosque
+    book Bloodlines: The True Story of a Drug Cartel, the FBI, and the Battle for
+    a Horse-Racing Dynasty. Channing Tatum is attached to star, and Oscar-nominated
+    Straight Outta Compton scribe Jonathan Herman will adapt.'
   image: "/images/channing.jpg"
   link: http://deadline.com/2017/08/channing-tatum-bloodlines-michael-deluca-jonathan-herman-drug-cartel-fbi-movie-universal-pictures-1202149656
   title: Universal, Channing Tatum, Michael De Luca Tap 'Bloodlines.'
