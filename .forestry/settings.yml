@@ -7,8 +7,8 @@ auto_deploy: false
 admin_path: admin
 webhook_url: 
 sections:
-  book:
-    default_front_matter_template: book
   article:
     default_front_matter_template: article
+  book:
+    default_front_matter_template: book
 version: '0.26'
