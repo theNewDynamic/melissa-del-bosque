@@ -98,23 +98,22 @@ fields:
   type: text
   hidden: false
   default: 
-- name: external_links
-  label: External links
-  type: list
-  hidden: false
-  default: ''
-- name: external_link_titles
-  label: External link titles
-  type: list
-  hidden: false
-  default: ''
-- name: type
-  label: Type
-  type: text
-  hidden: false
-  default: ''
-- name: draft
-  label: Draft
-  type: boolean
-  hidden: false
-  default: false
+- type: field_group_list
+  name: external_links
+  label: External Links
+  fields:
+  - type: text
+    name: title
+    label: Title
+  - type: text
+    name: link
+    label: Link
+    description: e.g. https://www.example.com
+  - type: file
+    label: Image
+    name: image
+  - type: textarea
+    name: copy
+    label: Copy
+    config:
+      wysiwyg: true

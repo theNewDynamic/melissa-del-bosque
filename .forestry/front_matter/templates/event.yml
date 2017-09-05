@@ -1,9 +1,4 @@
 ---
-pages:
-- event/wild-detectives.md
-- event/texas-book-festival.md
-- event/brazos-bookstore.md
-- event/book-people.md
 hide_body: false
 fields:
 - name: title
