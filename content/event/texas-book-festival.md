@@ -11,6 +11,5 @@ venue:
   name: Texas Book Festival
   state: TX
   zip: ''
-draft: true
 
 ---
