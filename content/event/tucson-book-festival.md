@@ -8,9 +8,10 @@ venue:
   address: University of Arizona
   city: Tucson
   name: Koffler Room 204
-  state: 'Arizona '
+  state: ''
   zip: ''
 title: Tucson Book Festival
 type: ''
+draft: true
 
 ---
