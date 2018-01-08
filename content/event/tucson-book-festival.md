@@ -1,9 +1,9 @@
 ---
-date: 2018-03-09 11:30:00 -0600
+date: 2018-03-10 11:30:00 -0600
 images: ''
 description: Book Signing/Speaking
 link: https://tucsonfestivalofbooks.org/
-show_time: true
+show_time: false
 venue:
   address: University of Arizona
   city: Tucson
