@@ -1,5 +1,5 @@
 ---
-attribution: "*(New York Times Book Review)*"
+attribution: "*New York Times Book Review*"
 date: 2018-01-08 10:21:00 -0600
 book: book/bloodlines.md
 title: New York Times
