@@ -7,7 +7,7 @@ show_time: true
 venue:
   address: University of Arizona
   city: ''
-  name: 10:30- 11:30 a.m., Koffler Room 204
+  name: " Koffler Room 204"
   state: ''
   zip: ''
 title: Tucson Book Festival
