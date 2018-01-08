@@ -11,6 +11,5 @@ venue:
   name: The Wild Detectives
   state: TX
   zip: 75208
-draft: true
 
 ---
