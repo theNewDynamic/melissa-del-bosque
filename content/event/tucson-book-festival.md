@@ -12,6 +12,5 @@ venue:
   zip: ''
 title: Tucson Book Festival
 type: ''
-draft: true
 
 ---
