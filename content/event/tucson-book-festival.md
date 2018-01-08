@@ -6,7 +6,7 @@ link: http://tucsonfestivalofbooks.org/
 show_time: true
 venue:
   address: University of Arizona
-  city: http://tucsonfestivalofbooks.org/
+  city: ''
   name: ''
   state: ''
   zip: ''
