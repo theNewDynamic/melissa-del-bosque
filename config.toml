@@ -6,6 +6,7 @@ googleAnalytics = "UA-105300766-1"
 metaDataFormat = "yaml"
 log = false
 disableAliases = true
+buildFuture = true
 #SectionPagesMenu = "main"
 
 [social]
