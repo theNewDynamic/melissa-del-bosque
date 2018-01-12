@@ -5,9 +5,9 @@ description: Book Signing/Speaking
 link: http://tucsonfestivalofbooks.org/
 show_time: true
 venue:
-  address: University of Arizona
+  address:
   city: ''
-  name: ''
+  name: 'University of Arizona'
   state: ''
   zip: ''
 title: Tucson Book Festival
