@@ -1,7 +1,7 @@
 ---
 title: "Propublica On Bloodlines"
 attribution: "Ginger Thompson, Senior Reporter, *ProPublica*"
-date: "2107-06-17"
+date: 2017-06-17 12:00:00 -0600
 book: book/bloodlines.md
 description:
 ---
