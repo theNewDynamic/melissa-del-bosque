@@ -12,6 +12,5 @@ venue:
   zip: ''
 title: San Antonio Book Festival
 type: ''
-draft: true
 
 ---
