@@ -12,6 +12,5 @@ venue:
   zip: ''
 title: Book Signing
 type: ''
-draft: true
 
 ---
