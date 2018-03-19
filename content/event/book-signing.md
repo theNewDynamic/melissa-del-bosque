@@ -1,7 +1,7 @@
 ---
-date: 2018-03-19 14:27:49 +0000
+date: 2018-03-25 13:00:00 -0500
 images: ''
-description: ''
+description: Barnes and Noble, Waco, Texas
 link: ''
 show_time: true
 venue:
@@ -11,6 +11,7 @@ venue:
   state: ''
   zip: ''
 title: Book Signing
+type: ''
 draft: true
 
 ---
