@@ -1,7 +1,7 @@
 ---
 title: About Melissa
-description: Melissa del Bosque is an investigative reporter with the *Texas Observer*
-  and a Lannan reporting fellow with The Investigative Fund at The Nation Institute.
+description: Melissa del Bosque is an investigative reporter and a Lannan reporting
+  fellow with The Investigative Fund at The Nation Institute.
 images:
 - "/images/melissa-del-bosque-headshot_opt_v.jpg"
 - "/images/melissa-del-bosque-headshot.jpg"
