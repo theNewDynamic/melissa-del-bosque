@@ -8,9 +8,10 @@ venue:
   address: 105. S Highland Ave
   city: Marfa
   name: ''
-  state: ''
+  state: Texas
   zip: ''
 title: Marfa Book Co.
 type: ''
+draft: true
 
 ---
