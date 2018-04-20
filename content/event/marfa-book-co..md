@@ -12,6 +12,5 @@ venue:
   zip: ''
 title: Marfa Book Co.
 type: ''
-draft: true
 
 ---
