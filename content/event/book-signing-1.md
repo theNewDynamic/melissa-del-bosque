@@ -5,12 +5,13 @@ description: ''
 link: ''
 show_time: true
 venue:
-  address: ''
-  city: ''
+  address: South Texas College
+  city: McAllen
   name: ''
   state: ''
   zip: ''
 title: Book Signing
+type: ''
 draft: true
 
 ---
