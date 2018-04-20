@@ -8,7 +8,7 @@ venue:
   address: ''
   city: McAllen
   name: ''
-  state: ''
+  state: Texas
   zip: ''
 title: South Texas College
 type: ''
