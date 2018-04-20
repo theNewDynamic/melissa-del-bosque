@@ -5,8 +5,8 @@ description: Reading/Signing
 link: ''
 show_time: true
 venue:
-  address: ''
-  city: ''
+  address: 105. S Highland Ave
+  city: Marfa
   name: ''
   state: ''
   zip: ''
