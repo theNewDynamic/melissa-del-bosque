@@ -12,6 +12,5 @@ venue:
   zip: ''
 title: South Texas College
 type: ''
-draft: true
 
 ---
