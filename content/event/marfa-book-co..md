@@ -1,7 +1,7 @@
 ---
-date: 2018-04-20 11:25:34 -0500
+date: 2018-05-26 18:00:00 -0500
 images: ''
-description: ''
+description: Reading/Signing
 link: ''
 show_time: true
 venue:
@@ -11,6 +11,7 @@ venue:
   state: ''
   zip: ''
 title: Marfa Book Co.
+type: ''
 draft: true
 
 ---
