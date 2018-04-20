@@ -1,5 +1,5 @@
 ---
-date: 2018-04-24 11:30:01 -0500
+date: 2018-04-24 11:30:00 -0500
 images: ''
 description: ''
 link: ''
@@ -12,6 +12,5 @@ venue:
   zip: ''
 title: Book Signing
 type: ''
-draft: true
 
 ---
