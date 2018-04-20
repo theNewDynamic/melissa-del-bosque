@@ -1,16 +1,17 @@
 ---
 date: 2018-04-24 11:30:00 -0500
 images: ''
-description: ''
+description: Book Signing
 link: ''
 show_time: true
 venue:
-  address: South Texas College
+  address: ''
   city: McAllen
   name: ''
   state: ''
   zip: ''
-title: Book Signing
+title: South Texas College
 type: ''
+draft: true
 
 ---
