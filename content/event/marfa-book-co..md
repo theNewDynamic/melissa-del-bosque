@@ -5,7 +5,7 @@ description: Reading/Signing
 link: ''
 show_time: true
 venue:
-  address: 105. S Highland Ave
+  address: Crowley Theater 104 S Austin St.
   city: Marfa
   name: ''
   state: Texas
