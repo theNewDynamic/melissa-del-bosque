@@ -19,10 +19,9 @@ sections:
   templates:
   - default
   - home
-- type: directory
-  path: content/about
+- type: document
+  path: content/about.md
   label: About
-  create: all
   match: "**/*"
   templates:
   - default
