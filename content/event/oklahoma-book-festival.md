@@ -1,5 +1,5 @@
 ---
-date: ''
+date: 2018-10-20 09:00:00 -0500
 category: 
 where_published: 
 link_to_original: 
