@@ -6,7 +6,7 @@ images:
 - "/images/melissa-del-bosque-headshot_opt_v.jpg"
 - "/images/melissa-del-bosque-headshot.jpg"
 type: page
-
+hide_page_heading: true
 ---
 **Melissa del Bosque** is an investigative reporter and a Lannan reporting fellow with The Investigative Fund at The Nation Institute. She has written about the U.S.-Mexico border since 1998 for various media outlets, including _The Texas Observer_, _the Guardian_, and _Time_. Her work has also been featured on Democracy Now, PBS, MSNBC, the BBC, and NPR. She has reported on topics including border militarization, economic inequality, the plight of unaccompanied migrant children in Mexico, and asylum seekers in the United States.
 
