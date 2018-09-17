@@ -1,9 +1,12 @@
 ---
-date:
+date: 2018-10-18 11:00:00 -0500
 category: Event
 where_published: ''
 link_to_original: ''
 title: Kaufman County Library Author Luncheon
-draft: true
+venue:
+  name: Kaufman County Library
+  state: TX
+  city: Kaufman
 
 ---
