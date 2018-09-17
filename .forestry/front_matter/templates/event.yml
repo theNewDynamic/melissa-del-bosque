@@ -1,84 +1,24 @@
 ---
-label: event
 hide_body: false
-is_partial: false
 fields:
-- name: title
-  label: Title
-  type: text
-  hidden: false
-  default: ''
-- type: datetime
+- type: include
+  name: defaults
+  label: defaults
+  template: partial-default
+- type: include
   name: date
-  label: Date
-- name: images
-  label: Images
-  type: text
-  hidden: false
-  default: 
-- name: description
-  label: Description
-  type: text
-  hidden: false
-  default: 
-- name: link
-  label: Link
-  type: text
-  hidden: false
-  default: 
+  label: date
+  template: partial-date
 - name: show_time
   label: Show time
   type: boolean
   hidden: false
   default: true
-- name: venue
-  label: Venue
-  type: field_group
-  fields:
-  - name: address
-    label: Address
-    type: text
-    hidden: false
-    default: ''
-  - name: city
-    label: City
-    type: text
-    hidden: false
-    default: ''
-  - name: name
-    label: Name
-    type: text
-    hidden: false
-    default: ''
-  - name: state
-    label: State
-    type: text
-    hidden: false
-    default: ''
-  - name: zip
-    label: Zip
-    type: text
-    hidden: false
-    default: ''
-  hidden: false
-  default: 
-- name: type
-  label: Type
-  type: text
-  hidden: false
-  default: ''
-- name: draft
-  label: Draft
-  type: boolean
-  hidden: false
-  default: false
-pages:
-- content/event/tucson-book-festival.md
-- content/event/wild-detectives.md
-- content/event/book-signing-1.md
-- content/event/book-signing.md
-- content/event/texas-book-festival.md
-- content/event/san-antonio-book-festival.md
-- content/event/book-people.md
-- content/event/brazos-bookstore.md
-- content/event/marfa-book-co..md
+- type: include
+  name: image
+  label: image
+  template: partial-images-w-credit 
+- type: include
+  name: venue
+  label: venue
+  template: partial-venue
