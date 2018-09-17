@@ -7,4 +7,4 @@ type: Review
 description: ''
 
 ---
-“Absorbing. . . . In _Bloodlines_, the author gives us both the  engrossing drama of a police procedural—from seeming dead ends to  panic-stricken emergencies—and a scrupulous journalistic account of a  significant episode in the drug wars.” 
+Absorbing…In _Bloodlines_, the author gives us both the  engrossing drama of a police procedural—from seeming dead ends to  panic-stricken emergencies—and a scrupulous journalistic account of a  significant episode in the drug wars.

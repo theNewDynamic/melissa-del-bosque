@@ -1,42 +1,15 @@
-{{ define "header" }}
-<div class="site-font {{ .Site.Params.styles.background_color_class | default "bg-primary-color-dark" }}">
-  {{ partial "global/navigation.html" . }}
-  </div>
-{{ end }}
 {{ define "main" }}
-  {{ range first 1 (where .Data.Pages "Section" "book") }}
-    <main>
-      <div class="cover" style="background-image:url({{ $.Params.hero.image }});">
-      <div class="bg-black-50">
-
-        <div class="cf w-80-l ph4 ph4-m center pv4 pv5-l">
-          <div class="fl w-100 w-50-l pt4-l">
-            {{ with .Params.subtitle }}
-              <div class="cf pr3 f3 f2-ns lh-copy mb4 site-font white">
-                {{ . | markdownify }}
-              </div>
-            {{ end }}
-            <h2 class="f3 tr mr5">
-              <a href="{{ .URL }}" class="hover-white link red">
-              Read more &raquo;
-              </a>
-            </h2>
-            {{ partial "books/buylinks" (dict "context" . "buylinkClasses" "f5 link bg-animate hover-bg-near-black br2 ba ph3 pv2 mr1 mb2 sans-serif db dib-ns white" "textcolor" "white") }}
-          </div>
-          <div class="fl w-100 w-50-l pl5-l mt4 mt0-ns">
-            <a href="{{ .URL }}">
-            {{ if .Params.images }}
-              <img src="{{ index (.Params.images) 1 }}" alt="Cover image for {{ .Title }}" class="w-90 shadow-5 mt3-s mt0-m mt0-l mb2 mb0-l">
-            {{ end }}
-            </a>
-          </div>
-        </div>
-        </div>
-      </div>
-
-      <div class="black center mb5 pa4 w-75-l">
-        {{- partial "books/praise.html" (dict "count" 100 "context" . ) -}}
-      </div>
-    </main>
+{{ range first 1 (where .Data.Pages "Section" "book") }}
+  <main class="lazyload relative min-h-screen bg-cover bg-no-repeat bg-top" data-bg="{{ $.Params.hero.image }}">    
+    <section class="bg-black-50 absolute pin">
+      {{ partial "home/cover-with-quote.html" . }}      
+    </section>        
+  </main>      
+  <section class="mx-auto md:max-w-2xl mb-12 mt-8 py-8 px-8">
+    <div class="px-8">
+      {{- partial "books/praise.html" (dict "count" 10 "Page" . ) -}}
+      <a class="btn block btn-buylinks self-end" href="{{.URL }}">more</a>
+    </div>
+  </section>
   {{ end }}
 {{ end }}

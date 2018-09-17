@@ -1,0 +1,14 @@
+{{ $currentPage := . }}
+<div class="py-1 px-8 mb-2 color-inherit bg-inherit max-w-4xl mx-auto  md:flex items-center justify-between">
+    <div class="lg:flex justify-between">
+      <h1 class="leading-none m0">
+        <a href="/" class="text-4xl no-underline text-black font-light">
+          {{ .Site.Title }}
+        </a>
+      </h1>      
+    </div>    
+    <section class="social md:flex items-center justify-around">
+      {{- partial "_global/menu.html" (dict "page" . "menu" "main") -}}    
+      {{ partial "_components/social-follow.html" (dict "cx" . "icon_size" "32px") }}
+    </section>
+</div>

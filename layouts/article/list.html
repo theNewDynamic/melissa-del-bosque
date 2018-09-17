@@ -1,33 +1,37 @@
 {{ define "main" }}
-  <article class="cf">
-    <div class="measure-l center f3 lh-copy nested-copy-line-height nested-links nested-img mid-gray site-font">
-      {{ .Content }}
-    </div>
+  <article class="page-list_defaultT px-8 mx-auto">
+    <h1>{{ .Title }}</h1>
   </article>
-  <div class="mw8 center">
+  <div class="max-w-xl mx-auto">
     <section class="mt5">
       {{ range  (.Paginator 30).Pages }}
-        <div class="relative w-100 mb4 bg-near-white">
-          <div class="relative w-100 bg-inherit nested-copy-line-height">
-            <div class="mb3 pa4 black overflow-hidden">
+        <div class="relative w-full mb-8 bg-grey-lighter">
+
+          <div class="relative w-full bg-inherit nested-copy-line-height">
+            <div class="mb-3 p-4 text-black overflow-hidden flex flex-wrap">
               {{ with .Params.images }}
-              <span class="dib fl w-25 mr4">
-                <img src="{{ index . 0 }}" />
-              </span>
+              <div class="inline-block w-full md:w-1/4">
+                <img src="{{ index . 0 }}" class="w-full"/>
+              </div>
               {{ end }}
-              {{ with .Params.category }}
-              <span class="f6 db sans-serif">{{ . }}</span>
-              {{ end }}
-              <h1 class="f3 near-black">
-                <a href="{{ .Params.link_to_original }}" class="link accent-color dim">
-                  {{ .Title }} {{ partial "global/external-link.html" . }}
-                </a>
-              </h1>
-              {{with .Params.where_published }}
-                <h2 class="f5 i">{{ .}}</h2>
-              {{end}}
-              <div class="nested-links f5 lh-copy black nested-copy-line-height">
-                {{ .Description }}
+              <div class="w-full md:w-3/4">
+                <div class="p-4">
+                  {{ with .Params.category }}
+                  <span class="text-xs block font-sans">{{ . }}</span>
+                  {{ end }}
+                  <h1 class="text-xl text-grey-darker">
+                    <a href="{{ .Params.link_to_original }}" class="text-red no-underline dim">
+                      {{ .Title }}                   
+                      {{ partial "external-link.html" . }}                  
+                    </a>
+                  </h1>
+                  {{with .Params.where_published }}
+                    <h2 class="text-sm i">{{ .}}</h2>
+                  {{end}}
+                  <div class="nested-links f5 lh-copy black nested-copy-line-height">
+                    {{ .Description }}
+                  </div> 
+                </div>
               </div>
             </div>
           </div>

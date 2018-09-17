@@ -1,13 +1,15 @@
 ---
-label: review
 hide_body: false
 is_partial: false
 fields:
-- name: title
-  label: Title
-  type: text
-  hidden: false
-  default: ''
+- type: include
+  name: defaults
+  label: defaults
+  template: partial-default
+- type: include
+  name: date
+  label: date
+  template: partial-date
 - name: attribution
   label: Attribution
   type: text
@@ -20,24 +22,10 @@ fields:
       type: pages
       section: book
   label: Book
-- type: datetime
-  name: date
-  label: Date
-- name: type
-  label: Type
-  type: text
-  hidden: false
-  default: ''
-- name: description
-  label: Description
-  type: text
-  hidden: false
-  default: ''
-pages:
-- content/review/new-york-times.md
-- content/review/propublica-on-bloodlines.md
-- content/review/guadalupe-correa-cabrera-on-bloodlines.md
-- content/review/alfred-corchado-on-bloodlines.md
-- content/review/wall-street-journal.md
-- content/review/texas-monthly-on-bloodlines.md
-- content/review/gilbert-king-on-bloodlines.md
+- type: boolean
+  name: featured
+  label: Featured
+- type: include
+  name: weight
+  label: weight
+  template: partial-weight
