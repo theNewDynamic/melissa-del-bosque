@@ -8,3 +8,4 @@ venue:
   link: https://okbookfest.org/
 
 ---
+10:00 AM – 5:00 PM
