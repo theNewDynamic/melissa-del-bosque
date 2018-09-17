@@ -20,7 +20,7 @@ twitter = "MelissaLaLinea"
 
 [mediaTypes]
 [mediaTypes."text/netlify"]
-  suffix = ""
+  suffixes = ""
   delimiter = ""
 
 [outputFormats]
