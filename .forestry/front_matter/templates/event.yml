@@ -1,4 +1,5 @@
 ---
+label: event
 hide_body: false
 is_partial: false
 fields:
@@ -71,3 +72,13 @@ fields:
   type: boolean
   hidden: false
   default: false
+pages:
+- content/event/tucson-book-festival.md
+- content/event/wild-detectives.md
+- content/event/book-signing-1.md
+- content/event/book-signing.md
+- content/event/texas-book-festival.md
+- content/event/san-antonio-book-festival.md
+- content/event/book-people.md
+- content/event/brazos-bookstore.md
+- content/event/marfa-book-co..md

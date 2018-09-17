@@ -1,4 +1,5 @@
 ---
+label: review
 hide_body: false
 is_partial: false
 fields:
@@ -32,3 +33,11 @@ fields:
   type: text
   hidden: false
   default: ''
+pages:
+- content/review/new-york-times.md
+- content/review/propublica-on-bloodlines.md
+- content/review/guadalupe-correa-cabrera-on-bloodlines.md
+- content/review/alfred-corchado-on-bloodlines.md
+- content/review/wall-street-journal.md
+- content/review/texas-monthly-on-bloodlines.md
+- content/review/gilbert-king-on-bloodlines.md

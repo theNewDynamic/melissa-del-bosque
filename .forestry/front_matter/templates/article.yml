@@ -1,4 +1,5 @@
 ---
+label: Article
 hide_body: true
 is_partial: false
 fields:
@@ -42,3 +43,10 @@ fields:
 - name: description
   label: description
   type: textarea
+pages:
+- content/article/death-on-sevenmile-road.md
+- content/article/chidren-of-the-exodus.md
+- content/article/welcome-to-kochworld.md
+- content/article/deadliest-place-in-mexico.md
+- content/article/homeland-insecurity.md
+- content/article/beyond-the-border.md

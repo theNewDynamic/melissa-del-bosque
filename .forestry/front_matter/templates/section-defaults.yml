@@ -1,4 +1,5 @@
 ---
+label: Section Defaults
 hide_body: false
 is_partial: false
 fields:
@@ -14,4 +15,4 @@ fields:
   name: images
   label: Images
 pages:
-- article/_index.md
+- content/article/_index.md

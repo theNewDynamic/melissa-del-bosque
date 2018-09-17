@@ -4,14 +4,31 @@ auto_deploy: false
 admin_path: admin
 webhook_url: 
 sections:
-  review:
-    default_front_matter_template: review
-  event:
-    default_front_matter_template: event
-  book:
-    default_front_matter_template: book
-  article:
-    default_front_matter_template: article
+- type: directory
+  path: content/article
+  label: Article
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/book
+  label: Book
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/event
+  label: Event
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/review
+  label: Review
+  create: all
+  match: "**/*"
+- type: directory
+  path: content
+  label: Pages
+  create: all
+  match: "*"
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: "/images"
