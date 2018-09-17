@@ -13,5 +13,9 @@ footer {
 }
 
 .page-list_default, .page-single_default {
-  @apply max-w-2xl;
+  @apply max-w-xl;
+}
+
+.text-base {
+  @apply text-grey-darkest;
 }

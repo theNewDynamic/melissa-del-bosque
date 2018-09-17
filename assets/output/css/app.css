@@ -112,7 +112,11 @@ footer {
 
 .page-list_default,
 .page-single_default {
-  max-width: 70rem;
+  max-width: 60rem;
+}
+
+.text-base {
+  color: #3d4852;
 }
 
 /* MAIN HEADER / NAVIGATION */
