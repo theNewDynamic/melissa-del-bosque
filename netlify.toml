@@ -1,9 +1,9 @@
 [build]
-  command = "hugo"
+  command = "hugo --minify"
   publish = "public"
 
 [context.production.environment]
-  HUGO_VERSION = "0.32.4"
+  HUGO_VERSION = "0.48"
   HUGO_ENV = "production"
 
 # https://www.netlify.com/docs/continuous-deployment/#deploy-contexts
