@@ -11,10 +11,6 @@ fields:
   name: date
   label: date
   template: partial-date
-- type: include
-  name: image
-  label: image
-  template: partial-images-w-credit
 - name: where_published
   label: Where Published
   type: text
@@ -26,3 +22,6 @@ fields:
   type: text
   hidden: false
   default: ''
+- type: image_gallery
+  name: images
+  label: Image
