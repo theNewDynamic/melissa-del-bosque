@@ -24,4 +24,5 @@ fields:
   hidden: false
   default: 
 pages:
+- content/event/oklahoma-book-festival.md
 - content/event/kaufman-county-library-author-luncheon.md
