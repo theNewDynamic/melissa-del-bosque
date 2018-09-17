@@ -4,3 +4,6 @@
 [submodule "layout_modules/hugo-layout_module-books"]
 	path = layout_modules/hugo-layout_module-books
 	url = https://github.com/theNewDynamic/hugo-layout_module-books.git
+[submodule "layout_modules/hugo-layout_module-events"]
+	path = layout_modules/hugo-layout_module-events
+	url = https://github.com/theNewDynamic/hugo-layout_module-events.git
