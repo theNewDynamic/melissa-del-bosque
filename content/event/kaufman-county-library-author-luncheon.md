@@ -1,5 +1,5 @@
 ---
-date: {}
+date:
 category: Event
 where_published: ''
 link_to_original: ''
