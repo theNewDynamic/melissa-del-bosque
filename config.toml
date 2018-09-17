@@ -1,7 +1,9 @@
 languageCode = "en-us"
 title = "Melissa del Bosque"
 baseurl = "https://www.melissadelbosque.com"
-theme = "thenewdynamic-hugo-core-theme"
+#theme = "thenewdynamic-hugo-core-theme"
+themesDir = "layout_modules"
+theme = ["hugo-layout_module-base", "hugo-layout_module-books"]
 googleAnalytics = "UA-105300766-1"
 metaDataFormat = "yaml"
 log = false

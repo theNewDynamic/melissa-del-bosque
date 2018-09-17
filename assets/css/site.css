@@ -1,0 +1,17 @@
+/* Use the site file to define common component classes or to prevent duplicate sets of classes in templates. */
+body {
+  @apply font-brand;
+}
+
+footer {
+  @apply bg-primary-color text-grey-darker text-sm py-4;
+}
+
+
+.page-single_default article {
+  @apply pb-32;
+}
+
+.page-list_default, .page-single_default {
+  @apply max-w-2xl;
+}

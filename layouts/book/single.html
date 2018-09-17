@@ -1,33 +1,32 @@
 {{ define "main" }}
-  <main class="min-vh-100 text-on-primary-color w-100">
-
-    <section class="ph4 ph4-m center pv4 pv5-l w-80-l">
-      {{- partial "books/header.html" . -}}
-
-      <div class="flex-l flex-wrap">
-        <div class="mt0-ns mt w-100 w-60-l">
-          <div class="bb b--black-20 f4 measure-wide mv4 nested-copy-line-height">
-            {{ .Content }}
-          </div>
-          {{partial "books/external-links.html" .}}
-          {{ partial "books/buylinks" (dict "context" . "buylinkClasses" "ba bg-animate black br2 db dib-ns f5 hover-bg-near-black link mb2 mr1 ph3 pv2    hover-white" "textcolor" "black") }}
+  <div class="page-single_default mx-auto min-h-screen"> 
+    
+    <section class="mx-auto px-4 md:px-4 py-4 py- w-80-l">
+    
+      <div class="md:flex flex-wrap">
+        <div class="w-full md:w-2/5 lg:pt-2">
+          
+          {{- partial "books/cover.html" . -}}
+          {{- partial "books/meta-data-array.html" . -}}
         </div>
-        <div class="fl pt2-l w-100 w-40-l pl4">
-        {{ if .Params.images }}
-          <img src="{{ index (.Params.images) 0 }}" alt="Cover image for {{ .Title }}" class="mb2 mb0-l mt0-l mt0-m mt3-s w-90">
-        {{ end }}
-          {{ partial "books/meta-data.html" . }}
+        <div class="w-full md:w-3/5 mt-4 md:mt-0">
+          <div class="px-8">
+              {{- partial "books/header.html" . -}}
+              {{ partial "books/description.html" . }}
+            <div class="border-b my-4 leading-normal">
+              {{ .Content }}
+            </div>
+            {{ $count := "1" }}
+            {{ partial "books/buylinks_array.html" (dict "item" . "count" "10") }}
+          </div>
         </div>
       </div>
     </section>
-
-    <section class="center ph4 ph4-m w-80-l">
-      {{- partial "books/praise.html" (dict "count" 100 "context" . ) -}}
+    <section class="mx-auto flex flex-columnd mb-32 mt-8 px-4 md:px-4 text-on-primary-color">
+      {{- partial "books/covers-editions.html" . -}}
     </section>
-
-    <div class="tc mv5">
-    {{ partial "books/buylinks" (dict "context" . "buylinkClasses" "ba bg-animate black br2 db dib-ns f5 hover-bg-near-black link mb2 mr1 ph3 pv2    hover-white" "textcolor" "black") }}
-    </div>
-
-  </main>
+    <section class="mx-auto flex flex-columnd mb-32 mt-8 px-4 md:px-4 text-on-primary-color">
+      {{- partial "books/praise.html" (dict "count" 100 "Page" . ) -}}
+    </section>
+  </div>
 {{ end }}

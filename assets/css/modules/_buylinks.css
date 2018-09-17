@@ -1,0 +1,9 @@
+.btn-buylinks {
+  @apply border-solid border-primary-color text-primary-color font-sans font-normal text-xs;
+}
+.buylinks .btn-buylinks {
+  @apply  border-primary-color-light text-white ;
+}
+.btn-buylinks:hover {
+  @apply text-primary-color bg-white;
+}
