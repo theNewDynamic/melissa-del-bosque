@@ -1,25 +1,30 @@
 ---
 buy_links_external:
-  - name: Amazon
-    link: http://ads.harpercollins.com/athrweb?isbn=9780062448484&retailer=amazon&locale=US
-  - name: Apple
-    link: http://ads.harpercollins.com/athrweb?isbn=9780062448507&retailer=apple&locale=US
-  - name: Barnes-&-Noble
-    link: http://ads.harpercollins.com/athrweb?isbn=9780062448484&retailer=barnesandnoble&locale=US
-  - name: Books-a-Million
-    link: http://ads.harpercollins.com/athrweb?isbn=9780062448484&retailer=booksamillion&locale=US
-  - name: Google-Play
-    link: http://ads.harpercollins.com/athrweb?isbn=9780062448507&retailer=googleplay&locale=US
-  - name: Harper-Collins
-    link: http://ads.harpercollins.com/athrweb?isbn=9780062448484&retailer=harpercollins&locale=US
-  - name: Indiebound
-    link: http://ads.harpercollins.com/athrweb?isbn=9780062448484&retailer=indiebound&locale=US
+- name: Amazon
+  link: http://ads.harpercollins.com/athrweb?isbn=9780062448484&retailer=amazon&locale=US
+- name: Apple
+  link: http://ads.harpercollins.com/athrweb?isbn=9780062448507&retailer=apple&locale=US
+- name: Barnes-&-Noble
+  link: http://ads.harpercollins.com/athrweb?isbn=9780062448484&retailer=barnesandnoble&locale=US
+- name: Books-a-Million
+  link: http://ads.harpercollins.com/athrweb?isbn=9780062448484&retailer=booksamillion&locale=US
+- name: Google-Play
+  link: http://ads.harpercollins.com/athrweb?isbn=9780062448507&retailer=googleplay&locale=US
+- name: Harper-Collins
+  link: http://ads.harpercollins.com/athrweb?isbn=9780062448484&retailer=harpercollins&locale=US
+- name: Indiebound
+  link: http://ads.harpercollins.com/athrweb?isbn=9780062448484&retailer=indiebound&locale=US
 date: 2017-06-26 00:00:00 +0000
 description: 'Drugs, money, cartels: this is what FBI rookie Scott Lawson expected
   when he was sent to the border town of Laredo, but instead he’s deskbound writing
   intelligence reports about the drug war. '
-
 editions:
+- isbn: 9780062448491
+  binding: paperback
+  publisher: HarperCollins
+  description: ''
+  date: 2018-09-24 23:00:00 -0500
+  cover_image: "/uploads/9780062448491.jpg"
 - binding: hardcover
   isbn: 9780062448484
   date: 2017-06-26 05:00:00 +0000
@@ -32,7 +37,6 @@ editions:
   description: ''
   cover_image: 
   publisher: 
-
 external_link_titles:
 - Universal, Channing Tatum, Michael De Luca Tap 'Bloodlines'
 external_links:
