@@ -66,7 +66,7 @@ fields:
   - type: text
     description: e.g. https:www.example.com/page/
   description: Optional
-  hidden: true
+  hidden: false
 - type: file
   name: featured_image
   label: Featured Image
