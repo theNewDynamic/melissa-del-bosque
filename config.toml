@@ -40,6 +40,7 @@ twitter = "MelissaLaLinea"
 
 [params]
   description = "Melissa del Bosque is an award-winning investigative journalist who has covered the U.S.-Mexico border region for the past two decades."
+  home_page_notice =  "Bloodlines now out in paperback online and in bookstores near you."
 
 [params.styles]
   body_classes = "bg-white center site-font black mw9"

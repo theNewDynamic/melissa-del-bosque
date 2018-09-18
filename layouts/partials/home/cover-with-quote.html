@@ -10,6 +10,11 @@
   </div>
   <div class="w-full lg:w-1/2">
     <div class="px-16">
+      {{ with $.Param "home_page_notice" }}              
+        <div class="text-white text-xl text-center font-sans">
+          {{ . }}
+        </div>
+      {{ end }}
       {{- partial "books/cover.html" . -}}
     </div>
     <div class="mt-8 px-8 mx-auto md:hidden text-grey block buylinks mb-4">
