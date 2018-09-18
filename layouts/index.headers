@@ -13,7 +13,7 @@
   {{$font_file := readDir "/static/fonts/" }}
   {{ range $font_file }}
     {{ if in .Name "woff2" -}}  
-    Link: </fonts/{{ .Name }}>;rel="preload";as="font";crossorigin
+    Link: </fonts/{{ .Name }}>;rel="preload";as=font;crossorigin
     {{- end }}
   {{ end }}
   
