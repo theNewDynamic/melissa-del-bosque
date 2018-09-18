@@ -8,13 +8,27 @@ nav[aria-label="main"] {
     @apply flex content-end font-normal text-xl leading-none;
 }
 
-nav[aria-label="main"] ul {
-    @apply mr-8 flex content-end;    
-}
+
 
 nav[aria-label="main"] li {
     @apply flex self-end;
 }
+
+nav[aria-label="main"] li {
+    @apply text-sm leading-tight;
+}
+nav[aria-label="main"] ul {
+    @apply mr-2 flex content-end;    
+}
+@screen md {
+    nav[aria-label="main"] li {
+        @apply text-xl;
+    }
+    nav[aria-label="main"] ul {
+        @apply mr-8 flex content-end;    
+    }
+}
+
 
 nav[aria-label="main"] a {
     @apply pr-4 no-underline text-primary-color;

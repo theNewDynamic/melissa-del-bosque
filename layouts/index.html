@@ -1,11 +1,10 @@
 {{ define "main" }}
 {{ range first 1 (where .Data.Pages "Section" "book") }}
-  <main class="lazyload relative min-h-screen bg-cover bg-no-repeat bg-top" data-bg="{{ $.Params.hero.image }}">    
-    <section class="bg-black-50 absolute pin">
+  <main class="lazyload relative min-h-screen bg-cover bg-no-repeat bg-top" data-bg="{{ $.Params.hero.image }}">   <section class="bg-black-50 md:absolute pin">
       {{ partial "home/cover-with-quote.html" . }}      
     </section>        
   </main>      
-  <section class="mx-auto md:max-w-2xl mb-12 mt-8 py-8 px-8">
+  <section class="mx-auto md:max-w-2xl mb-12 mt-8 md:py-8 md:px-8">
     <div class="px-8">
       {{- partial "books/praise.html" (dict "count" 10 "Page" . ) -}}
       <a class="btn block btn-buylinks self-end" href="{{.URL }}">more</a>
