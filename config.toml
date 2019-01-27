@@ -18,7 +18,8 @@ twitter = "MelissaLaLinea"
 #instagram = ""
 
 [outputs]
-  home = ["HTML", "RSS", "HEADERS", "REDIRECTS", "CSS"]
+  home = ["HTML", "RSS", "HEADERS", "REDIR"]
+  page = ["HTML"]
 
 [mediaTypes]
 [mediaTypes."text/netlify"]
@@ -26,7 +27,7 @@ twitter = "MelissaLaLinea"
   delimiter = ""
 
 [outputFormats]
-[outputFormats.REDIRECTS]
+[outputFormats.REDIR]
   mediatype = "text/netlify"
   baseName = "_redirects"
   isPlainText = true
