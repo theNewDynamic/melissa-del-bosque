@@ -12,7 +12,9 @@
         <div class="w-full md:w-3/5 mt-4 md:mt-0">
           <div class="px-8">
               {{- partial "books/header.html" . -}}
-              {{ partial "books/description.html" . }}
+              <div class="text-xl">
+                {{ partial "books/description.html" . }}
+              </div>
             <div class="border-b my-4 leading-normal">
               {{ .Content }}
             </div>
