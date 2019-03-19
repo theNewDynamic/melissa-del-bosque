@@ -15,9 +15,9 @@ buy_links_external:
 - name: Indiebound
   link: http://ads.harpercollins.com/athrweb?isbn=9780062448484&retailer=indiebound&locale=US
 date: 2017-06-26 00:00:00 +0000
-description: 'Drugs, money, cartels: this is what FBI rookie Scott Lawson expected
+description: "### Drugs, money, cartels: this is what FBI rookie Scott Lawson expected
   when he was sent to the border town of Laredo, but instead he’s deskbound writing
-  intelligence reports about the drug war. '
+  intelligence reports about the drug war."
 editions:
 - isbn: 9780062448491
   binding: paperback
