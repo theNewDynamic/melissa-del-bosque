@@ -10,8 +10,8 @@
           <div class="relative w-full bg-inherit nested-copy-line-height">
             <div class="mb-3 p-4 text-black overflow-hidden flex flex-wrap">
               {{ with .Params.images }}
-              <div class="inline-block w-full md:w-1/4">
-                <img src="{{ index . 0 }}" class="w-full"/>
+              <div class="inline-block w-full md:w-1/4 bg-cover bg-top" style="background-image: url({{ index . 0 }});">
+                {{/*  <img src="{{ index . 0 }}" class="w-full"/>  */}}
               </div>
               {{ end }}
               <div class="w-full md:w-3/4">
