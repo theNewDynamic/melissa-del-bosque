@@ -7,8 +7,9 @@ images:
 - "/images/melissa-del-bosque-headshot.jpg"
 type: page
 hide_page_heading: true
+
 ---
-**Melissa del Bosque** is an investigative reporter at _ProPublica_. She has written about the U.S.-Mexico border since 1998 for various media outlets, including _The Wall Street Journal_, _The Texas Observer_, _the Guardian_, _The Intercept_, and _Harper’s_.
+**Melissa del Bosque** is an investigative reporter and author. She has written about the U.S.-Mexico border since 1998 for various media outlets, including _ProPublica_, _The Texas Observer_, _the Guardian_, _The Intercept_, and _Harper’s_.
 
 In 2016, del Bosque won the Hillman Prize for her investigative feature "Death on Sevenmile Road" about the militarization of the U.S.-Mexico border. In 2015 del Bosque's four-part series with _the Guardian_ on migrant deaths in South Texas won an Emmy and a National Magazine Award. Her 2012 investigative feature about massacres in the Juarez Valley, Mexico, was a National Magazine Award finalist and won awards from both the Association of Alternative News Media and the Pan American Health Organization. She has also been honored with the Casey Medal for Meritorious Journalism from the Journalism Center on Children and Families at the University of Maryland.
 
